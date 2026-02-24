@@ -77,12 +77,12 @@ The dashboard provides risk-focused KPIs, borrower segmentation, financial expos
 ## 📊 Dashboard Preview
 
 ### Credit Risk Overview
-![Overview](screenshots/overview.png)
+![Overview](Screenshots/overview.png)
 
 ---
 
 ###  Risk Analysis
-![Vintage](screenshots/vintage_risk_analysis.png)
+![Vintage](Screenshots/risk_analysis.png)
 
 ---
 
