@@ -1,106 +1,102 @@
-# Credit Risk Assessment Dashboard using Power BI
-
-## Overview
-
-This project focuses on analyzing borrower loan default risk using financial and demographic data.
-The dashboard identifies high-risk customer segments and evaluates financial exposure to assist in data-driven lending decisions.
-
-The objective of this analysis is to move beyond descriptive loan distribution metrics and provide actionable insights into:
-
-- Probability of Default (PD)
-- Exposure at Default (EAD)
-- Debt-to-Income Risk
-- Employment Stability Risk
-- Credit Score-based Default Trends
-- Time-based Lending Risk (Vintage Analysis)
+# 📊 Credit Risk Assessment Dashboard (Power BI)
 
 ---
 
-## Dataset Features
+## 📌 Project Overview
 
-The dataset contains borrower-level loan application details including:
+This project presents an interactive Power BI dashboard designed to assess borrower credit risk and analyze loan default trends using financial and demographic data.
 
-- Age
-- Income
-- Loan Amount
-- Credit Score
-- Debt-to-Income Ratio (DTI)
-- Employment Type
-- Months Employed
-- Loan Term
-- Interest Rate
-- Number of Credit Lines
-- Has Mortgage
-- Has Co-Signer
-- Loan Purpose
-- Loan Issue Date
-- Default Status
+The dashboard provides risk-focused KPIs, borrower segmentation, financial exposure analysis, and time-based default trend evaluation to support data-driven lending decisions.
 
 ---
 
-## Key Risk Metrics Calculated
+## 📁 Repository Contents
 
-| Metric | Description |
-|--------|-------------|
-| Default Rate | Percentage of loans that resulted in default |
-| High DTI Default Rate | Default rate for borrowers with DTI > 0.4 |
-| Exposure at Default (EAD) | Total loan amount at risk due to default |
-| Average Interest (Defaulted) | Avg interest charged to defaulted borrowers |
-| Employment Stability Risk | Risk based on employment duration |
-| High LGD Proxy | Borrowers with no mortgage and no co-signer |
+- Credit_Risk_Dashboard.pbix – Power BI dashboard file  
+- Loan_data.xlsx – Dataset used for analysis  
+- screenshots/ – Dashboard preview images
+- Column_Definitions.xlsx - Column defination for the dataset
 
 ---
 
-## Dashboard Insights
+## 📈 Key Metrics Displayed
 
-The dashboard helps answer:
-
-- Which credit score groups are more likely to default?
-- Do borrowers with high DTI pose greater risk?
-- Does having a co-signer reduce default probability?
-- Which loan purposes contribute to higher financial exposure?
-- Are unstable employment conditions linked to defaults?
-- Is interest rate pricing aligned with borrower risk?
-- Which lending periods showed increased default trends?
+- Total Loans Issued  
+- Total Defaults  
+- Default Rate  
+- High DTI Default Rate  
+- Exposure at Default (EAD)  
+- Average Interest Rate (Defaulted Borrowers)  
 
 ---
 
-## Visualizations Included
+## 🔍 Business Insights Provided
 
-- Default Rate by Credit Score Band
-- Default Rate by DTI Bucket
-- Default Rate by Employment Stability
-- Default Rate by Loan Purpose
-- Defaults by Mortgage Availability
-- Default Rate by Co-Signer Presence
-- Interest Rate vs Credit Score (Risk Pricing Check)
-- Exposure at Default (EAD) by Loan Purpose
-- Default Rate by Loan Year
-- EAD Trend by Loan Year
+- Default rate across credit score categories  
+- Risk posed by borrowers with high debt-to-income ratio  
+- Impact of co-signer presence on loan default probability  
+- Financial exposure across loan purposes  
+- Employment stability vs default likelihood  
+- Interest rate pricing for high-risk borrowers  
+- Time-based lending risk trends (Vintage Analysis)  
 
 ---
 
-## Tools Used
+## 📊 Dashboard Features
 
-- Power BI
-- DAX
-- Data Modeling
-- Risk Segmentation Techniques
-
----
-
-## Business Use Case
-
-This dashboard can support:
-
-- Credit Risk Teams
-- Loan Approval Decision Making
-- Lending Policy Evaluation
-- Financial Risk Monitoring
-- Portfolio Exposure Analysis
+### 1️⃣ Credit Risk Overview
+- Default Rate by Credit Score Band  
+- Default Rate by DTI Bucket  
+- Default Rate by Employment Stability  
+- Default Rate by Loan Purpose  
 
 ---
 
-## Outcome
+### 2️⃣ Financial Exposure Analysis
+- Exposure at Default (EAD) by Loan Purpose  
+- Defaults by Mortgage Availability  
+- Default Rate by Co-Signer Presence  
+- Interest Rate vs Credit Score (Risk Pricing Check)  
 
-Provides a risk-driven perspective on lending by identifying borrower segments that contribute to higher probability of default and financial exposure, enabling better credit decision strategies.
+---
+
+### 3️⃣ Time-Based Risk Analysis
+- Default Rate by Loan Year  
+- EAD Trend by Loan Year  
+
+---
+
+### 4️⃣ Interactive Filtering
+- Employment Type slicer  
+- Loan Purpose slicer  
+- Mortgage Availability slicer  
+- Co-Signer slicer  
+
+---
+
+## 📊 Dashboard Preview
+
+### Credit Risk Overview
+![Overview](screenshots/overview.png)
+
+---
+
+###  Risk Analysis
+![Vintage](screenshots/vintage_risk_analysis.png)
+
+---
+
+## 🛠 Tools & Techniques Used
+
+- Power BI  
+- DAX  
+- Data Modeling  
+- Financial Risk Segmentation  
+- KPI Design  
+- Interactive Report Design  
+
+---
+
+## 🎯 Project Outcome
+
+This dashboard demonstrates the ability to transform borrower loan data into structured financial risk insights by identifying high-risk customer segments contributing to increased probability of default and financial exposure.
